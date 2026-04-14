@@ -1,0 +1,23 @@
+# ==========================================
+# Escudo de Seguridad - Portafolio UNI
+# ==========================================
+
+# 1. Archivos temporales de Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# 2. Configuración local del IDE (Antigravity / VS Code)
+.vscode/
+*.code-workspace
+.history/
+
+# 3. Archivos de registro (Logs) y volcados de errores
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 4. Archivos de dependencias (para futuros proyectos)
+node_modules/
