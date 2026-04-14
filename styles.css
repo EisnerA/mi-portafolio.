@@ -243,6 +243,34 @@ footer {
 @media (max-width: 768px) {
   header {
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 1rem;
+    text-align: center;
+  }
+
+  header h1 {
+    font-size: 1.2rem; /* Reduce ligeramente el tamaño para evitar desbordes */
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr; /* Tarjetas de proyectos en 1 columna */
+  }
+
+  #habilidades ul {
+    flex-direction: column; /* Habilidades en 1 columna */
+    align-items: stretch;
+  }
+
+  #habilidades li {
+    text-align: center;
+  }
+
+  #hardware dl {
+    grid-template-columns: 1fr; /* Hardware en 1 sola columna vertical */
+    row-gap: 1rem;
+  }
+
+  #hardware dd {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05); /* Restaurar borde divisor de móvil */
   }
 }
